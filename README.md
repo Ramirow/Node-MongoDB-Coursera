@@ -2,7 +2,7 @@
 npm init
 
 ## Install the Node MongoDB driver and the Assert module by typing the following at the prompt
-npm install mongodb@3.0.10 --save
+npm install mongodb@3.0.10 --save     </br>
 npm install assert@1.4.1 --save 
 
 ## Accept the standard defaults suggested until you end up with a package.json file containing the following
@@ -18,3 +18,8 @@ npm install assert@1.4.1 --save
   "author": "Jogesh Muppala",
   "license": "ISC"
 }
+
+## repair mongodb server 
+mongod --repair
+## run mongodb
+mongod
