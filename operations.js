@@ -1,5 +1,5 @@
 const assert = require('assert');
-
+//Here is the general funuctions call,callback as parameter is the reference to the appied functions in index.js
 exports.insertDocument = (db, document, collection, callback) => {
     const coll = db.collection(collection);
     return coll.insert(document);
